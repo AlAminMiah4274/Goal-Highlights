@@ -147,7 +147,7 @@ footer {
 }
 
 /* website-1 start */
-.no-button {
+.container-buttons {
     border: 1px solid;
     background-color: black;
     width: 30%;
@@ -155,12 +155,12 @@ footer {
     border-radius: 10px;
 }
 
-.no-class {
+.CONTAINER {
     display: flex;
     margin: 100px;
 }
 
-.No-Class {
+.container-FLAGS {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
@@ -195,4 +195,11 @@ footer {
 
 .size {
     font-size: smaller;
+}
+
+.u-match {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(red, red);
+    padding: 10px 40px;
 }
